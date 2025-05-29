@@ -22,7 +22,6 @@ export async function POST(request:NextRequest) {
             return NextResponse.json({error:"Invalid file upload data"},{status:401});
         }
 
-
         const fileData={
             name:imagekit.name||"untitled",
             path:imagekit.filePath || `droply/${userId}/${imagekit.name}`,
