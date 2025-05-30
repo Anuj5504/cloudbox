@@ -1,5 +1,6 @@
+"use client";
+
 import type { ThemeProviderProps } from "next-themes";
-import { Trykker } from "next/font/google";
 import { ImageKitProvider } from "imagekitio-next";
 import { HeroUIProvider } from "@heroui/system";
 
